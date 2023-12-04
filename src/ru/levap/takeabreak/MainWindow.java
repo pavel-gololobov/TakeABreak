@@ -225,8 +225,8 @@ public class MainWindow {
 		
 		lblNewLabel = new JLabel("----");
 		lblNewLabel.setBackground(Color.WHITE);
-		lblNewLabel.setFont(new Font("Consolas", Font.BOLD, 30));
-		lblNewLabel.setBounds(12, 15, 93, 42);
+		lblNewLabel.setFont(new Font("Consolas", Font.BOLD, 36));
+		lblNewLabel.setBounds(12, 12, 100, 42);
 		lblNewLabel.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mousePressed(MouseEvent e) {
